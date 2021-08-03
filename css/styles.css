@@ -607,6 +607,7 @@ progress {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+  align-items: center;
 }
 
 @media (min-width: 576px) {
@@ -642,6 +643,7 @@ progress {
   margin-top: calc(var(--bs-gutter-y) * -1);
   margin-right: calc(var(--bs-gutter-x) * -.5);
   margin-left: calc(var(--bs-gutter-x) * -.5);
+  align-items: center;
 }
 .row > * {
   flex-shrink: 0;
@@ -650,10 +652,12 @@ progress {
   padding-right: calc(var(--bs-gutter-x) * .5);
   padding-left: calc(var(--bs-gutter-x) * .5);
   margin-top: var(--bs-gutter-y);
+  align-items: center;
 }
 
 .col {
   flex: 1 0 0%;
+  align-items: center;
 }
 
 .row-cols-auto > * {
@@ -1073,7 +1077,7 @@ progress {
 
   .col-sm-2 {
     flex: 0 0 auto;
-    width: 16.66666667%;
+    width: 20%;
   }
 
   .col-sm-3 {
@@ -1421,7 +1425,7 @@ progress {
 
   .col-lg-2 {
     flex: 0 0 auto;
-    width: 16.66666667%;
+    width: 20%;
   }
 
   .col-lg-3 {
@@ -10864,6 +10868,7 @@ body {
 
 .page-section {
   padding: 8rem 0;
+  align-items: center;
 }
 
 .text-white-75 {
